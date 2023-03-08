@@ -1,6 +1,3 @@
-"hieee"
-a=10
-b=10
-c=a+b
-print(c)
-
+import pandas as pd
+df=pd.read_csv(r'G:\DataSet\womens-ecommerce-clothing-reviews\Womens Clothing E-Commerce Reviews.csv')
+df
